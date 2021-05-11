@@ -5,22 +5,38 @@ PHP adalah singkatan dari PHP Hypertext Prepocessor dan merupakan bahasa pemrogr
 # Langkah-langkah Praktikum
 Persiapan Untuk memulai membuat kode php, perlu disiapkan web server dan interpreter PHP terlebih dahulu. Web servar yang kita gunakan adalah Apache 2 dan interpreter PHP 7. Untuk memudahkan proses praktikum, kita gunakan aplikasi bundle web server yaitu XAMPP.
 
-Install XAMPP
+# Install XAMPP
 Unduh XAMPP dari https://www.apachefriends.org/download.html dan pilih versi portable untuk memudahkan proses installasi. Kemudian extract file tersebut, seusikan direktorinya (misal: c:\xampp).
 
 ![imag](https://github.com/fdlhrauf/Lab7Web/blob/main/Screenshoot/1.JPG)
 
-Konfigurasi Web Server
-• Konfigurasi Apache
-Untuk konfigurasi HTTP server, seperti port yang digunakan akses HTTP, modul yang diaktifkan, lokasi document root, dll. Lokasi file: \xampp\apache\conf\httpd.conf
+# Konfigurasi Web Server
+* Konfigurasi Apache : Untuk konfigurasi HTTP server, seperti port yang digunakan akses HTTP, modul yang diaktifkan, lokasi document root, dll. Lokasi file: \xampp\apache\conf\httpd.conf
 
-• Konfigrasi PHP
-Untuk konfigurasi perilaku engine PHP yang berefek pada keamanan dan performa.Seperti batas maksimal waktu eksekusi script, batas file yang dapat diupload, error reporting, dll. Lokasi file: \xampp\php\php.ini
+* Konfigrasi PHP : Untuk konfigurasi perilaku engine PHP yang berefek pada keamanan dan performa.Seperti batas maksimal waktu eksekusi script, batas file yang dapat diupload, error reporting, dll. Lokasi file: \xampp\php\php.ini
 
-• Konfigrasi MySql
-Konfigurasi server MySQL, seperti administrator user, port, timezone, dll. Lokasi file: \xampp\mysql\bin\my.ini Menjalankan Web Server Untuk menjalankan web server dari menu XAMPP Control.
+* Konfigrasi MySql : Konfigurasi server MySQL, seperti administrator user, port, timezone, dll.
+Lokasi file: \xampp\mysql\bin\my.ini
+# Menjalankan Web Server
+Untuk menjalankan web server dari menu XAMPP Control.
 
 ![imag](https://github.com/fdlhrauf/Lab7Web/blob/main/Screenshoot/3.JPG)
+
+* Uji coba apakah server sudah bekerja dengan baik
+http://127.0.0.1 atau http://localhost
+
+Tampil halaman utama XAMPP jika server sudah bekerja dengan baik.
+
+* Dokumen Website
+ Semua file website tempatkan di rektori : \xampp\htdocs\
+ 
+* Database MySQL
+Direktori : \xampp\mysql\
+
+Manajemen database : http://localhost/phpmyadmin
+
+# Memulai PHP
+Buatlah folder lab7_php_dasar pada root directory web server (c:\xampp\htdocs)
 
 ![imag](https://github.com/fdlhrauf/Lab7Web/blob/main/Screenshoot/2.JPG)
 
