@@ -88,6 +88,8 @@ Menambahkan variable pada program
 
 ![imag](https://github.com/fdlhrauf/Lab7Web/blob/main/Screenshoot/16.JPG)
 
+![imag](https://github.com/fdlhrauf/Lab7Web/blob/main/Screenshoot/switch.JPG)
+
 ![imag](https://github.com/fdlhrauf/Lab7Web/blob/main/Screenshoot/19.JPG)
 
 ![imag](https://github.com/fdlhrauf/Lab7Web/blob/main/Screenshoot/20.JPG)
